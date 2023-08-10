@@ -1,0 +1,97 @@
+.logo {
+    height: 4em;
+    margin-top: 15px;
+    margin-left: 10em;
+}
+
+.navbar {
+    margin-top: -3em;
+}
+
+.heading {
+    text-align: center;
+    font-size: 5em;
+    color: aliceblue;
+    margin-top: 50px;
+}
+
+.p-tag {
+    background-color: rgb(107, 198, 37);
+    height: 25em;
+    position: static;
+    width: 90em;
+    margin-left: 40px;
+}
+
+.lorem {
+    color: aliceblue;
+    text-align: center;
+}
+
+.read-btn {
+    margin-left: 42em;
+    margin-top: 75px;
+}
+
+.icons-item {
+    height: 25em;
+    position: static;
+    width: 90em;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+
+}
+
+/* .icons {
+    margin-top: 10em;
+    margin-left: 65px;
+} */
+
+.setting-icon {
+    width: '50px';
+    height: '50px';
+    margin-top: 10em;
+    margin-left: 10em;
+    position: relative;
+}
+
+.names {
+    position: absolute;
+    margin-left: 7em;
+    margin-top: 15px;
+
+}
+
+.input {
+    background-color: white;
+    margin-left: 50px;
+}
+
+.input1 {
+    margin-left: 30px;
+}
+
+.inputs {
+    margin-bottom: 15px;
+    margin-left: 15em;
+}
+
+.service-icon {
+    width: '50px';
+    height: '50px';
+    margin-top: 10em;
+    margin-left: 20em;
+    position: relative;
+}
+
+
+.services{
+    margin-left: 15em;
+    margin-top: 15px;
+    position: relative;
+}
+
+.service-notes{
+    position: absolute;
+}
