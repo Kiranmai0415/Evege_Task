@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header';
 import './styles.css'
-import { Button, Row} from 'react-bootstrap';
+import { Button, Col, Row } from 'react-bootstrap';
 import Icons from './Icons';
 import Service from './Service';
 import { useNavigate } from 'react-router-dom';
@@ -48,6 +48,11 @@ const Main = () => {
             </div>
             <div>
                 <Service />
+            </div>
+            <div>
+               
+
+
             </div>
 
         </>
