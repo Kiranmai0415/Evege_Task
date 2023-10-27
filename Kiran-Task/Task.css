@@ -1,0 +1,345 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(152, 152, 153);
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    /* change to white*/
+}
+
+.navbar a:hover {
+    background-color: #d1d5d9;
+    border-radius: 5px;
+    color: black;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.left-links {
+    display: flex;
+    white-space: nowrap;
+    margin-left: 200px !important;
+}
+
+.right-links {
+    display: flex;
+}
+
+.right-links a {
+    margin-left: 20px;
+}
+
+.image-container {
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+    opacity: 0.8;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    /* This ensures the image covers the entire container without distortion */
+}
+
+.overlay-logo {
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    height: 45px !important;
+    max-width: 158px !important;
+}
+
+.overlay-pre {
+    position: absolute;
+    top: 100px;
+    color: white;
+}
+
+.searching {
+    position: absolute;
+    top: 70%;
+    left: 15%;
+}
+
+input[type=text] {
+    width: 35vw;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 242, 242);
+    margin-top: 10px;
+}
+
+
+
+.event-container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 60%;
+    margin-top: 3%;
+
+}
+
+figure {
+    padding: 1px;
+    margin: 20px;
+}
+
+figcaption {
+    color: black;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+
+figure img {
+    display: inline-block;
+    margin: 0 auto;
+    height: 120px;
+    width: 140px !important;
+    margin-top: 40px;
+}
+
+h4 {
+    margin-right: 50%;
+    position: absolute;
+    left: 20%;
+    margin-bottom: 20px;
+}
+
+.register-container {
+    width: 100vw;
+    /* 100% of the viewport width */
+    height: 40vh;
+    position: relative;
+}
+
+.register-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* This ensures the image covers the entire container without distortion */
+}
+
+.text-overlay,
+.register-text-overlay,
+.register-button {
+    position: absolute;
+    left: 50%;
+    /* Position the text horizontally in the middle of the container */
+    transform: translateX(-50%);
+    /* Center the text precisely */
+    color: white;
+    /* Text color */
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+}
+
+.text-overlay {
+    top: 20%;
+    font-size: 35px;
+    /* Adjust the font size as needed */
+
+}
+
+.register-text-overlay {
+    top: 40%;
+    font-size: 15px;
+}
+
+.register-button {
+    position: absolute;
+    justify-content: center;
+    top: 65%;
+    height: 30px;
+    width: 10em;
+    color: black;
+    border-radius: 8px;
+    border-color: azure;
+
+}
+
+
+.guarantee-container {
+    display: flex;
+    /* border: 1px solid green; */
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.guarantee-text {
+    justify-content: space-around !important;
+    margin-left: 20px;
+    margin-top: 10%;
+    width: 30%;
+    /* text-align: center; */
+}
+
+.guarantee-img {
+    border: 1px solid pink;
+    margin-left: 10px;
+    margin-top: 5%;
+}
+
+.guarantee-text p {
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px
+}
+
+.strong {
+    margin-left: 10px;
+    font-size: 25px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.links {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+a:link {
+    text-decoration: none !important;
+}
+
+.footer-details {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.footer-links {
+    justify-content: space-around !important;
+    margin-left: 20px;
+    margin-top: 5%;
+    width: 550px;
+    /* text-align: center; */
+    /* width: auto;
+    float: left;
+    padding-left: 40px;
+    padding-right: 140px;
+    color: #ddd;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 12px;
+    line-height: 15px; */
+}
+
+
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.grid-row {
+    list-style: none;
+    /* Remove the default bullet points (dots) */
+    padding: 0;
+    display: flex;
+    width: 33.33%;
+    /* Each row contains 3 columns */
+    margin-bottom: 10px;
+}
+
+
+
+.grid-row a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.footer-subscribe {
+    border: 1px solid pink;
+    margin-left: 10px;
+    margin-top: 5%;
+    width: 30%;
+    text-align: center;
+
+}
+
+.email {
+    width: 310px;
+    position: relative;
+    height: 50px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+}
+
+.email-button {
+    color: white;
+    position: absolute;
+    margin-left: -4%;
+    margin-top: 6px;
+    border-radius: 8px;
+    height: 5vh;
+    background-color: limegreen;
+}
+
+.footerText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-footer {
+    display: flex;
+    margin-left: 13%;
+}
+
+.right-footer {
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: row;
+    /* Ensure the "@" and the link are side by side */
+    align-items: center;
+}
+
+.right-content a {
+    color: #333;
+    margin-left: 100px;
+    /* Add some spacing between the text and the link */
+}

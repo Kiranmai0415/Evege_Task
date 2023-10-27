@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Task</title>
+    <link rel="stylesheet" href="Task.css">
+    <script src="Task.js"></script>
+
+</head>
+
+<body>
+    <div>
+        <div class="image-container">
+            <img src="D:\all-programs\Kiran-Task\images\buildings.jpeg" alt="City">
+            <div class="navbar">
+                <div class="left-section">
+                    <img src="D:\all-programs\Kiran-Task\images\healthLogo.png" alt="Health" class="overlay-logo">
+                    <div class="left-links">
+                        <a href="#Events">Events</a>
+                        <a href="#about">Help</a>
+                    </div>
+                </div>
+                <div class="right-links">
+                    <a href="#subscribe">Register an Event</a>
+                    <a href="forms.html">SignUp</a>
+                    <a href="forms.html">Login</a>
+                </div>
+            </div>
+            <div class="overlay-pre">
+                <pre style="font-size:xx-large ;">
+             <b>Latest health events
+             We have the tickets</b>
+                </pre>
+            </div>
+            <div class="searching">
+                <i class="fa fa-search"
+                    style="font-size:24px; position: absolute; margin-left: 10px; margin-top:10px"></i>
+                <input type="text" name="search" placeholder=" Search by team, artist, event, or Venue"
+                    onchange="search()" />
+            </div>
+            <script>
+                setTimeout(function () {
+                    alert(" nothing to Search");
+                    <a href = "#Footer-details"/>
+                }, 3000); 
+            </script>
+        </div>
+        <div class="location">
+            <i class="material-icons">&#xe567;</i>
+            <i> Riyadh, KSA </i> <span> | </span>
+            <p> Date V</p>
+        </div>
+        <div id="Events">
+            <div class="event-container">
+                <h4>Latest Events</h4>
+                <figure>
+                    <img src="D:\all-programs\Kiran-Task\images\rugby.jpeg" alt="Rugby">
+                    <figcaption>Rugby</figcaption>
+                </figure>
+                <figure>
+                    <img src="D:\all-programs\Kiran-Task\images\champion.jpeg" alt="champion">
+                    <figcaption>Belt</figcaption>
+                </figure>
+                <figure>
+                    <img src="D:\all-programs\Kiran-Task\images\tenis.jpeg" alt="Tenis">
+                    <figcaption>Tennis</figcaption>
+                </figure>
+                <figure>
+                    <img src="D:\all-programs\Kiran-Task\images\golf.jpeg" alt="Golf">
+                    <figcaption>Golf</figcaption>
+                </figure>
+            </div>
+            <h4>Top Speakers</h4>
+            <div class="event-container">
+                <figure>
+                    <img src="D:\all-programs\Kiran-Task\images\dhoni.jpeg" alt="Dhoni">
+                    <figcaption>Speaker 1</figcaption>
+                </figure>
+                <figure>
+                    <img src="D:\all-programs\Kiran-Task\images\dhoni.jpeg" alt="Dhoni">
+                    <figcaption>Speaker 2</figcaption>
+                </figure>
+                <figure>
+                    <img src="D:\all-programs\Kiran-Task\images\dhoni.jpeg" alt="Dhoni">
+                    <figcaption>Speaker 3</figcaption>
+                </figure>
+                <figure>
+                    <img src="D:\all-programs\Kiran-Task\images\dhoni.jpeg" alt="Dhoni">
+                    <figcaption>Speaker 4</figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div class="register-container">
+            <img src="D:\all-programs\Kiran-Task\images\multi-color.jpeg" alt="muiltiColor" />
+            <div class="text-overlay">A ticket for every health freak</div>
+            <div class="register-text-overlay"> Register to get front seats early</div>
+            <button class="register-button" onclick="Register()"> <b>Register Here </b></button>
+        </div>
+
+        <div class="guarantee-container">
+            <div class="guarantee-text">
+                <h2 style="margin-top:40px"><b>Guarantees you can trust</b></h2>
+                <p>Because more peace of mind means more love for the events.</p>
+                <div class="strong">
+                    <i class="fa fa-check-circle"></i>
+                    <i style="color:black">Get In Guarantee</i>
+                    <p style="font-size: 13px;">
+                        Authentic tickets, On-time delivery,
+                        and access to your event, Or your
+                        money back. Period
+                    </p>
+                </div>
+                <div class="strong">
+                    <i class="fa">&#xf155;</i>
+                    <i style="color:black">price Match Guarantee</i>
+                    <p style="font-size: 13px;">
+                        The best prices are here. if you spot a better deal
+                        elsewhere. we'll cover the difference.
+                    </p>
+                </div>
+            </div>
+
+            <div class="guarantee-img">
+                <img src="D:\all-programs\Kiran-Task\images\interior.jpeg" alt="interior" width="400" height="500">
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<footer id="#Footer-details">
+    <hr>
+    <div class="links">
+        <a href="#">Riyadh</a>
+        <a href="#">Dammam</a>
+        <a href="#">Aikharj</a>
+        <a href="#">Jeddah</a>
+        <a href="#">Abha</a>
+        <a href="#">Taif</a>
+        <a href="#">Khamis Musket</a>
+        <a href="#">Madina</a>
+        <a href="#">Makkah</a>
+        <a href="#">Hail</a>
+        <a href="#">Qassin</a>
+    </div>
+    <hr>
+    <div class="footer-details">
+        <div class="footer-links">
+            <div class="grid-container">
+                <ul class="grid-col">
+                    <a href="#"><b>Learn More</b></a>
+                </ul>
+                <ul class="grid-col">
+                    <a href="#"><b>Community</b></a>
+                </ul>
+                <ul class="grid-col">
+                    <a href="#"><b>Other Links</b></a>
+                </ul>
+            </div>
+            <div class="grid-container">
+                <ul class="grid-col">
+                    <a href="#">About</a>
+                </ul>
+                <ul class="grid-col">
+                    <a href="#">Help & Support</a>
+                </ul>
+                <ul class="grid-col">
+                    <a href="#">Ministry of Health</a>
+                </ul>
+            </div>
+            <div class="grid-container">
+                <ul class="grid-col">
+                    <a href="#">Management Team</a>
+                </ul>
+                <ul class="grid-col">
+                    <a href="#">Press</a>
+                </ul>
+                <ul class="grid-col">
+                    <a href="#">Saudi National Portal</a>
+                </ul>
+            </div>
+            <div class="grid-container">
+                <ul class="grid-col">
+                    <a href="#">Mission and Vision</a>
+                </ul>
+                <ul class="grid-col">
+                    <a href="#">Jobs</a>
+                </ul>
+                <ul class="grid-col">
+                    <a href="#">Ministry of Interior</a>
+                </ul>
+            </div>
+            <div class="grid-container">
+                <ul class="grid-col">
+                    <a href="#">Register with us</a>
+                </ul>
+                <ul class="grid-col">
+                    <a href="#">Media</a>
+                </ul>
+                <ul class="grid-col">
+                    <a href="#">Ministry of Justice</a>
+                </ul>
+            </div>
+            <div class="grid-container">
+                <ul class="grid-col">
+                    <a href="#"> News</a>
+                </ul>
+                <ul class="grid-col">
+                    <a href="#"></a>
+                </ul>
+                <ul class="grid-col">
+                    <a href="#">Ministry of Education</a>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-subscribe" id="subscribe">
+            <div>
+                <h3>Subscribe</h3>
+                <p>Get the latest news & updates in your inbox</p>
+                <div>
+                    <input type="email" placeholder="Enter your e-mail" class="email" />
+                    <button type="submit" class="email-button" onclick="email()">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="footerText">
+        <div class="left-footer">
+
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms of use</a>
+            <a href="#">Site map</a>
+        </div>
+        <div class="right-footer">
+            @2019 SHNC. All rights reserved.
+            <a href="#" target="_blank"> Made in Saudi</a>
+
+        </div>
+    </div>
+
+</footer>
+
+</html>

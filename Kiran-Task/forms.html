@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <title>practical3</title>
+    <link rel="stylesheet" href="forms.css">
+    <script src="Task.js"></script>
+
+</head>
+
+<body>
+    <form>
+        <div class="label">
+            <h1>Registration Form</h1>
+
+            <div>
+                <label for="First name">First Name</label>
+                <input type="text" class="First" name="First Name" placeholder="first name" />
+            </div>
+            <div>
+                <label for="Last name">Last Name</label>
+                <input type="text" class="Last" name="Last Name" placeholder="last name" />
+            </div>
+            <div>
+                <label for="email">email</label>
+                <input type="Email" class="email" name="email" placeholder="enter email" />
+            </div>
+            <div>
+                <label for="Password">Password</label>
+                <input type="password" class="pswd" placeholder="password" name="password" />
+            </div>
+            <div>
+                <label for="Country">Country</label>
+                <select name="Country" class="country">
+                    <option value="">Please select gthe country</option>
+                    <option value="America">America</option>
+                    <option value="India">India</option>
+                    <option value="Newyork">Newyork</option>
+                    <option value="South Korea ">South Korea</option>
+
+
+                </select>
+            </div>
+            <div>
+                <label for="Gender">Gender</label>
+                <input type="radio" class="gender" name="gender" value="Male">Male
+                <input type="radio" class="gender" name="gender" value="Female">Female
+                <input type="radio" class="gender" name="gender" value="Other">Other
+            </div>
+            <div>
+                <input type="checkbox" name="Terms and condiotions" />Accept the terms and conditions
+            </div>
+            <div>
+                <button type="submit" class="sign" onclick="showAlert()">Submit</button>
+            </div>
+            <a href="Task.html" style="font-size: 15px;">Back to Main Page</a>
+        </div>
+    </form>
+
+    <script>
+        function showAlert() {
+            alert("Form submitted!");
+            window.location.href = "Task.html"; 
+        }
+    </script>
+    
+    <script>
+      
+        function Submit() {
+            window.location.href = "Task.html"; 
+        } 
+    </script>
+
+
+    </div>
+    </form>
+</body>
+
+</html>
